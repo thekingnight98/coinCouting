@@ -1,0 +1,33 @@
+.cash-size {
+    height: 160px;
+    width: 340px;
+    transition: transform 0.2s;
+}
+
+.cash-size:hover {
+    height: 160px;
+    width: 340px;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.coin-size {
+    height: 130px;
+    width: 140px;
+    transition: transform 0.2s;
+}
+
+.coin-size:hover {
+    height: 130px;
+    width: 140px;
+    opacity: 1;
+    transform: scale(1.2);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.error-text {
+    color: red;
+}
